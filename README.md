@@ -24,8 +24,9 @@ Key sections:
 - **Projects** — flagship builds and their ecosystems (see table below)
 - **x402 Facilitator** — official x402 facilitator on Base (USDC · ERC-1155): "Stripe for AI agents"
 - **ML & Reinforcement Learning** — PPO, GRPO, RLVR; multi-model consensus as an RL-inspired reliability mechanism
-- **AI Workflows** — the Ouroboros loop: *Interview → Seed → Execute → Evaluate* (3-stage evaluation gate)
-- **Developer Tooling** — OpenCode, Magic Context, Ouroboros, Hermes Agent, the orchestration engine
+- **How I Architect** — spec-first, agent-driven pipeline: *SPEC → ORCHESTRATE → BUILD → SHIP* with a 3-stage evaluation gate (lint → typecheck → integration)
+- **Agent Swarm Architecture** — orchestrating harness, specialist sub-agents, a council of models, persistent memory, security automation
+- **Developer Tooling** — Hermes Agent, OpenCode, Cline, Codex, MCP protocol
 - **Automation & DevOps** — n8n, DeerFlow, VoltAgent, GitHub Actions CI/CD, Vercel Cron, Sentry, Upstash rate limiting
 - **Tech Stack** — full breakdown across languages, frontend, backend/DB, AI/agents, ML/RL, payments, blockchain, cloud/infra, identity, and storage/IPFS
 - **Recent Improvements** — changelog of notable updates (mobile overhaul, Wompi payouts, agent streaming, SEO discovery, Dashboard V3, and more)
@@ -36,7 +37,7 @@ Key sections:
 |---|---------|-------------|------|
 | 01 | **Pequi** | AI-powered real-estate platform for Colombia. Live in Ibagué (64 barrios) + Bogotá (212 barrios, 20 localidades). 15 AI tools, 18-endpoint public API, Ley 820 contracts, c402 monetization, Wompi payments, DeepSeek V4 agent with GRPO fine-tuning. | [xpequi.xyz](https://xpequi.xyz) |
 | 02 | **MCPVOTS** | AI agent micro-payment ecosystem on Base. VOTS token with deflationary burns, n8n automation, VoltAgent orchestration, autonomous trading, MCP protocol marketplace. | [mcpvot.xyz](https://mcpvot.xyz) |
-| 03 | **MCPVotsAGI** | Multi-model consensus SDK with Darwin Gödel Machine evolution engine, A2A protocol gateway, Redis-backed persistent memory. | [MCPVOT/mcpvotsagi](https://github.com/MCPVOT/mcpvotsagi) |
+| 03 | **MCPVotsAGI** | Multi-model consensus SDK — specialist LLM outputs aggregated by a reward model into a single high-confidence answer; A2A protocol gateway, Redis-backed persistent memory. | [MCPVOT/mcpvotsagi](https://github.com/MCPVOT/mcpvotsagi) |
 | 04 | **Village of Thousands** | Sustainability-focused skateboard-culture lifestyle brand. Hybrid e-commerce: Shopify + custom Next.js storefront + Supabase Realtime. NYFW featured. | [villageofthousands.io](https://villageofthousands.io) |
 | 05 | **xpequi-api** | Colombia's first public real-estate data API. 18 endpoints, 276 barrios (Ibagué + Bogotá), c402 Protocol monetization, AVM valuation, live UVR/IPC, IPFS contract pinning, TypeScript + Python SDKs, MCP server. | [MCPVOT/xpequi-api](https://github.com/MCPVOT/xpequi-api) |
 

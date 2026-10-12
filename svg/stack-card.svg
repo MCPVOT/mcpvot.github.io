@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="494" height="180" viewBox="0 0 494 180" role="img" aria-label="Languages in rotation">
+  <style>
+    .bg { fill:#0d1117; }
+    .frame { fill:none; stroke:#21262d; }
+    .title { font:600 15px "JetBrains Mono",Consolas,monospace; fill:#00ff88; letter-spacing:1.5px; }
+    .note { font:400 10px "JetBrains Mono",Consolas,monospace; fill:#8b949e; letter-spacing:.8px; }
+    .chip-txt { font:600 12px "JetBrains Mono",Consolas,monospace; }
+    .c0 { opacity:0; animation: pop .45s ease-out forwards; animation-delay:0.3s; }
+    .c1 { opacity:0; animation: pop .45s ease-out forwards; animation-delay:0.42s; }
+    .c2 { opacity:0; animation: pop .45s ease-out forwards; animation-delay:0.54s; }
+    .c3 { opacity:0; animation: pop .45s ease-out forwards; animation-delay:0.6599999999999999s; }
+    .c4 { opacity:0; animation: pop .45s ease-out forwards; animation-delay:0.78s; }
+    .c5 { opacity:0; animation: pop .45s ease-out forwards; animation-delay:0.8999999999999999s; }
+    .c6 { opacity:0; animation: pop .45s ease-out forwards; animation-delay:1.02s; }
+    @keyframes pop { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+  </style>
+  <rect class="bg" width="494" height="180" rx="10"/>
+  <rect class="frame" x="0.5" y="0.5" width="493" height="179" rx="10"/>
+  <text class="title" x="18" y="24">// LANGUAGES IN ROTATION_</text>
+  <text class="note" x="476" y="24" text-anchor="end">full-stack · agents · systems</text>
+  <rect class="chip c0" x="16" y="30" width="106" height="26" rx="6" fill="#161b22" stroke="#00e5ff" stroke-width="1"/>
+  <text class="chip-txt c0" x="29" y="47" fill="#00e5ff">TypeScript</text>
+  <rect class="chip c1" x="130" y="30" width="74" height="26" rx="6" fill="#161b22" stroke="#00ff88" stroke-width="1"/>
+  <text class="chip-txt c1" x="143" y="47" fill="#00ff88">Python</text>
+  <rect class="chip c2" x="212" y="30" width="42" height="26" rx="6" fill="#161b22" stroke="#00d9ff" stroke-width="1"/>
+  <text class="chip-txt c2" x="225" y="47" fill="#00d9ff">Go</text>
+  <rect class="chip c3" x="262" y="30" width="58" height="26" rx="6" fill="#161b22" stroke="#ff6b35" stroke-width="1"/>
+  <text class="chip-txt c3" x="275" y="47" fill="#ff6b35">Rust</text>
+  <rect class="chip c4" x="328" y="30" width="50" height="26" rx="6" fill="#161b22" stroke="#8b949e" stroke-width="1"/>
+  <text class="chip-txt c4" x="341" y="47" fill="#8b949e">PHP</text>
+  <rect class="chip c5" x="386" y="30" width="90" height="26" rx="6" fill="#161b22" stroke="#a371f7" stroke-width="1"/>
+  <text class="chip-txt c5" x="399" y="47" fill="#a371f7">Solidity</text>
+  <rect class="chip c6" x="484" y="30" width="50" height="26" rx="6" fill="#161b22" stroke="#d29922" stroke-width="1"/>
+  <text class="chip-txt c6" x="497" y="47" fill="#d29922">SQL</text>
+
+  <text class="note" x="18" y="80">backend: Go · PHP · Rust (axum) · FastAPI · Laravel</text>
+  <text class="note" x="18" y="98">frontend: Next.js 16 · React 19 · HTMX (server-driven UI)</text>
+  <text class="note" x="18" y="116">data: PostgreSQL · MySQL · MongoDB · Redis · Prisma</text>
+  <text class="note" x="18" y="134">chain: Solidity · Base · ERC-1155 · Chainlink VRF</text>
+  <text class="note" x="18" y="160">card: hand-curated stack surface · GitHub auto-stats to the right</text>
+</svg>
